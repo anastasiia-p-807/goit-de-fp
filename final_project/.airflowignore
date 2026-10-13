@@ -1,0 +1,8 @@
+\.backups
+\.local-resources
+\.airflow-local
+\.airflow-test
+kafka_2\.13-3\.6\.0
+checkpoints
+logs
+__pycache__
