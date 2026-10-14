@@ -108,5 +108,5 @@ if __name__ == '__main__':
     if (args.limit is not None and args.limit <= 0) or args.max_offsets <= 0:
         parser.error('--limit and --max-offsets must be positive')
     if args.limit is not None and not args.seed:
-cd ~/kafka-project/final_project        parser.error('--limit is only used with --seed')
+        parser.error('--limit is only used with --seed')
     run(args)
